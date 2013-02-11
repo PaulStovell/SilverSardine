@@ -1,7 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverSardine.Web", "SilverSardine.Web\SilverSardine.Web.csproj", "{22E615BB-26B9-4BA6-BEB1-57B61C5A8E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverSardine.Tests", "SilverSardine.Tests\SilverSardine.Tests.csproj", "{6E5F91B4-5299-4DAC-B5EF-4DF907936BCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverSardine.WindowsService", "SilverSardine.WindowsService\SilverSardine.WindowsService.csproj", "{21181C32-8CB6-46AC-B029-3A419E24C023}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22E615BB-26B9-4BA6-BEB1-57B61C5A8E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E615BB-26B9-4BA6-BEB1-57B61C5A8E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E615BB-26B9-4BA6-BEB1-57B61C5A8E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E615BB-26B9-4BA6-BEB1-57B61C5A8E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5F91B4-5299-4DAC-B5EF-4DF907936BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5F91B4-5299-4DAC-B5EF-4DF907936BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5F91B4-5299-4DAC-B5EF-4DF907936BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5F91B4-5299-4DAC-B5EF-4DF907936BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21181C32-8CB6-46AC-B029-3A419E24C023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21181C32-8CB6-46AC-B029-3A419E24C023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21181C32-8CB6-46AC-B029-3A419E24C023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21181C32-8CB6-46AC-B029-3A419E24C023}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
