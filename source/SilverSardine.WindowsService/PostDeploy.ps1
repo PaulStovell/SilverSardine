@@ -1,7 +1,6 @@
 ﻿$ServiceName = "SilverSardine"
 $ServiceExecutable = "SilverSardine.WindowsService.exe"
 
-
 $service = Get-Service $ServiceName -ErrorAction SilentlyContinue
 
 $fullPath = Resolve-Path $ServiceExecutable
