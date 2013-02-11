@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.ServiceProcess;
 
 namespace SilverSardine.WindowsService
 {
@@ -9,7 +6,12 @@ namespace SilverSardine.WindowsService
     {
         static void Main(string[] args)
         {
+            var servicesToRun = new ServiceBase[] 
+            { 
+                new SampleService(),  
+            };
 
+            ServiceBase.Run(servicesToRun);
         }
     }
 }
